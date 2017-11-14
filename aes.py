@@ -5,7 +5,7 @@ def genKey(k):
     for i in range(0, k):
         temp = secrets.randbits(8)
         randomKey.append(temp)
-    print(sorted(randomKey), len(randomKey))
+    #print(sorted(randomKey), len(randomKey))
 
 def main():
     genKey(16)
